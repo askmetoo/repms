@@ -127,3 +127,13 @@ app_license = "MIT"
 # 	"Task": "repms.task.get_dashboard_data"
 # }
 
+fixtures = [
+    {"dt": "DocType", "filters": [
+        [
+            "name", "in", [
+                "Real Estate Property",
+                "Test"
+            ]
+        ]
+    ]}
+]
